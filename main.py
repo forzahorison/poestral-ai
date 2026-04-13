@@ -38,7 +38,7 @@ class MistralBot(fp.PoeBot):
             model="mistral-large-2411",
             messages=messages,
             temperature=0.7,
-            max_tokens=8192,
+            max_tokens=2048,
             stream=True,
         )
 
