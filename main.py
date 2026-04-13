@@ -17,7 +17,7 @@ class MistralBot(fp.PoeBot):
 
         messages.append({
             "role": "system",
-            "content": "You are a helpful assistant."  # ganti sesuai kebutuhan
+            "content": "You are a helpful assistant."  # ganti sesuai
         })
 
         for msg in request.query:
